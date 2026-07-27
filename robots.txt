@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://syedsheeraz-spec.github.io/AppNova1/sitemap.xml
+Sitemap: https://syedsheerazk-spec.github.io/AppNova1/sitemap.xml
