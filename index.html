@@ -15,8 +15,9 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#f4f6f9;
+background:linear-gradient(180deg,#f8fbff,#eef4ff);
 color:#222;
+overflow-x:hidden;
 }
 
 header{
@@ -74,10 +75,16 @@ font-weight:bold;
 }
 
 .hero img{
-width:220px;
-border-radius:30px;
+width:380px;
+max-width:100%;
+height:auto;
+transition:.4s;
+filter:drop-shadow(0 20px 40px rgba(0,0,0,.25));
 }
 
+.hero img:hover{
+transform:scale(1.05);
+}
 .section{
 padding:70px 10%;
 }
@@ -166,14 +173,12 @@ margin-top:40px;
 Safe, Fast and Free Android applications.
 </p>
 
-<a class="btn"
-href="https://github.com/syedsheeraz-spec/AppNova1/raw/main/app-release.apk">
-Download APK
-</a>
-
+<p style="margin-top:30px;font-size:18px;color:#666;">
+Discover premium Android applications with a modern experience.
+</p>
 </div>
 
-<img src="https://cdn-icons-png.flaticon.com/512/888/888857.png">
+<img src="logo.png" alt="AppNova Logo">
 
 </section>
 
